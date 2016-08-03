@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="126mm"
+   height="40mm"
+   viewBox="0 0 446.45675 141.73228"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="watches.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="213.14775"
+     inkscape:cy="79.165585"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="705"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-910.62992)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-10.765049"
+       y="1045.1476"
+       id="text3336"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3338"
+         x="-10.765049"
+         y="1045.1476"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:147.5px;font-family:'Shintia Script';-inkscape-font-specification:'Shintia Script'">Watches</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3340"
+       width="3.0984218"
+       height="106.01414"
+       x="616.67065"
+       y="633.22528"
+       transform="matrix(0.74085671,0.67166311,-0.58747557,0.8092419,0,0)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3342"
+       sodipodi:sides="3"
+       sodipodi:cx="92.142845"
+       sodipodi:cy="980.21936"
+       sodipodi:r1="8.0257874"
+       sodipodi:r2="4.0128937"
+       sodipodi:arg1="2.1341126"
+       sodipodi:arg2="3.1813101"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 87.857131,987.00507 0.551971,-13.8901 11.753198,7.42307 z"
+       inkscape:transform-center-x="1.4802525"
+       inkscape:transform-center-y="0.58306257"
+       transform="matrix(0.58889334,-0.80821086,0.80821066,0.58889334,-760.77176,424.58844)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3344"
+       width="1.0714287"
+       height="10.357141"
+       x="861.01929"
+       y="530.44342"
+       transform="matrix(0.54513224,0.83835007,-0.83835001,0.54513233,0,0)" />
+    <rect
+       transform="matrix(0.97489213,0.22267764,-0.2226776,0.97489214,0,0)"
+       y="980.65137"
+       x="249.19902"
+       height="10.357141"
+       width="1.0714285"
+       id="rect3346"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3348"
+       width="2.0203054"
+       height="12.12183"
+       x="-757.60974"
+       y="609.90344"
+       transform="matrix(0.5888933,-0.80821079,0.80821073,0.58889339,0,0)" />
+  </g>
+</svg>

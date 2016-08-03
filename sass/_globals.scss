@@ -1,0 +1,48 @@
+
+@include global-reset;
+
+body {
+  line-height: 1.8;
+  font-family: $primary-font;
+  font-size: $primary-font-size;
+  font-weight: 400;
+}
+
+.row {
+  max-width: 100%;
+}
+
+h1 {
+  color: $white;
+  font-size: $secondary-header;
+  font-weight: 700;
+  @extend text-lowercase;
+  @include padding(434 - 50, 0, 0, 18);
+  @media only screen and (min-width: 40em) {
+    font-size: $primary-header;
+    @include padding(502- 126, 0, 0, 12);
+  }
+  @media only screen and (min-width: 64em) {
+    @include padding(502- 60, 0, 0, 32);
+  }
+}
+
+
+
+h3 {
+  color: $white;
+  font-size: $fourth-header;
+  font-weight: 700;
+  @extend text-lowercase;
+  @include padding(114, 0, 0, 10);
+  @media only screen and (min-width: 40em) {
+    font-size: $third-header;
+    @include padding(172, 0, 0, 10);
+  }
+}
+
+hr {
+  border-bottom: 1px solid $black;
+  width: 250px;
+  @include margin(0, auto, 0, auto);
+}

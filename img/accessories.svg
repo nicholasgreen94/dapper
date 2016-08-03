@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="172mm"
+   height="40mm"
+   viewBox="0 0 609.44901 141.73228"
+   id="svg3371"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="accessories.svg">
+  <defs
+     id="defs3373" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="37.103973"
+     inkscape:cy="67.45166"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="705"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3376">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-910.62992)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-5.7142868"
+       y="1043.7908"
+       id="text3379"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3381"
+         x="-5.7142868"
+         y="1043.7908"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:147.5px;font-family:'Shintia Script';-inkscape-font-specification:'Shintia Script'">Accessories</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3383"
+       width="5.6759715"
+       height="105.59799"
+       x="820.25397"
+       y="329.13095"
+       transform="matrix(0.46487574,0.88537594,-0.80877224,0.58812198,0,0)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3385"
+       sodipodi:sides="3"
+       sodipodi:cx="118.18785"
+       sodipodi:cy="920.53729"
+       sodipodi:r1="10.227015"
+       sodipodi:r2="5.1135073"
+       sodipodi:arg1="1.2178059"
+       sodipodi:arg2="2.2650035"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 121.72339,930.13374 -13.61407,-11.33281 16.62153,-6.12372 z"
+       inkscape:transform-center-x="0.71926584"
+       inkscape:transform-center-y="1.9084675"
+       transform="matrix(0.97763897,0.2102904,-0.2102904,0.97763897,196.72804,-4.7746921)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3387"
+       width="1.5152289"
+       height="12.121831"
+       x="982.17206"
+       y="4.4703465"
+       transform="matrix(0.03639945,0.99933732,-0.99933732,0.03639945,0,0)" />
+    <rect
+       transform="matrix(0.84004731,0.54251315,-0.54251315,0.84004731,0,0)"
+       y="810.45435"
+       x="561.12994"
+       height="12.121831"
+       width="1.5152289"
+       id="rect3389"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

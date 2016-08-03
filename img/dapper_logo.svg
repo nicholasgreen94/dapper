@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="105mm"
+   height="43mm"
+   viewBox="0 0 372.04724 152.36223"
+   id="svg4159"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="dapper_logo.svg"
+   style="shape-rendering:crispEdges">
+  <defs
+     id="defs4161" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="181.4362"
+     inkscape:cy="59.352259"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="705"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4164">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-899.99998)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-9.8415613"
+       y="1013.9028"
+       id="text4167"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4169"
+         x="-9.8415613"
+         y="1013.9028"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:147.5px;font-family:'Shintia Script';-inkscape-font-specification:'Shintia Script'">Dapper</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3390"
+       width="3.2884696"
+       height="124.68174"
+       x="-656.76837"
+       y="-656.98199"
+       transform="matrix(-0.65284141,-0.75749462,0.63080949,-0.77593774,0,0)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3396"
+       sodipodi:sides="3"
+       sodipodi:cx="84.438896"
+       sodipodi:cy="945.45923"
+       sodipodi:r1="7.2315917"
+       sodipodi:r2="3.6157959"
+       sodipodi:arg1="0.9964915"
+       sodipodi:arg2="2.043689"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 88.367468,951.53066 -11.150869,-5.7049 10.516023,-6.80449 z"
+       inkscape:transform-center-x="0.46345314"
+       inkscape:transform-center-y="0.44287595"
+       transform="matrix(0.68059248,0.17822309,-0.28771751,1.095044,306.3025,-141.38981)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3455"
+       width="1.9617959"
+       height="11.597335"
+       x="-313.00992"
+       y="780.18396"
+       transform="matrix(0.71600643,-0.69809369,0.35699636,0.93410577,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3400"
+       width="2.0241237"
+       height="11.622071"
+       x="-318.26056"
+       y="775.1604"
+       transform="matrix(0.70472985,-0.70947575,0.35604767,0.93446779,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3457"
+       width="6.6599894"
+       height="1.6460501"
+       x="-42.940144"
+       y="993.04272"
+       transform="matrix(0.94106692,-0.33822043,0.04740709,0.99887565,0,0)"
+       inkscape:transform-center-x="-0.27554821"
+       inkscape:transform-center-y="-0.18251707" />
+    <rect
+       inkscape:transform-center-y="-0.38755755"
+       inkscape:transform-center-x="0.01848038"
+       transform="matrix(0.10548145,-0.99442127,0.99787791,-0.06511274,0,0)"
+       y="121.08257"
+       x="-1027.8438"
+       height="1.2046905"
+       width="8.8285027"
+       id="rect3459"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="490.16702"
+       y="967.65228"
+       id="text3392"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.9670409,0.25462109,-0.25462109,0.9670409,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3394"
+         x="490.16702"
+         y="967.65228" /></text>
+  </g>
+</svg>

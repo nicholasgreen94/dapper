@@ -1,0 +1,25 @@
+
+.menu {
+  li
+  > a {
+    color: $black;
+    font-family: $primary-font;
+    font-size: $primary-font-size;
+    @include padding(5, 10, 5, 10);
+    @extend text-lowercase;
+    &:hover {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.main-footer {
+  a {
+    color: $black;
+    font-size: $fourth-header;
+    font-weight: 700;
+    &:hover {
+      font-weight: 400;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.menu {
+  .img-link {
+    @include margin(0, 0, 6, 0);
+  }
+}
+
+.mobile-nav {
+  .dapper_logo {
+    width: 150px;
+    @include margin(0, 0, 6, 0); 
+  }
+}
+
+.dapper_logo {
+  width: 100px;
+}
+
+.jackets_logo,
+.shirts_logo,
+.pants_logo,
+.shoes_logo,
+.watches_logo,
+.accessory_logo {
+  width: 100px;
+  @media only screen and (min-width: 40em) {
+  width: 200px;
+  }
+}

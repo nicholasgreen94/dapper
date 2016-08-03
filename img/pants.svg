@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="105mm"
+   height="40mm"
+   viewBox="0 0 372.04724 141.73228"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="pants.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="292.5756"
+     inkscape:cy="95.216449"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="705"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-910.62992)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="24.986179"
+       y="1044.4153"
+       id="text3336"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3338"
+         x="24.986179"
+         y="1044.4153"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:147.5px;font-family:'Shintia Script';-inkscape-font-specification:'Shintia Script'">Pants</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3340"
+       width="4.0535612"
+       height="107.86292"
+       x="1016.9117"
+       y="1291.2427"
+       transform="matrix(1,0,-0.6952424,0.71877535,0,0)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3342"
+       sodipodi:sides="3"
+       sodipodi:cx="121.21831"
+       sodipodi:cy="926.09314"
+       sodipodi:r1="5.7587557"
+       sodipodi:r2="2.8793778"
+       sodipodi:arg1="0.90975316"
+       sodipodi:arg2="1.9569507"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 124.75384,930.63883 -9.23998,-3.75667 7.87336,-6.12373 z"
+       inkscape:transform-center-x="1.1372164"
+       inkscape:transform-center-y="0.33778232"
+       transform="matrix(0.96765642,0.25227177,-0.25227177,0.96765642,238.3054,0.13082144)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3344"
+       width="1.4855855"
+       height="9.7023554"
+       x="986.13477"
+       y="812.37762"
+       transform="matrix(0.77415776,0.6329927,-0.883723,0.46801032,0,0)" />
+    <rect
+       transform="matrix(0.8936728,-0.44871921,0.06693608,0.99775727,0,0)"
+       y="997.23914"
+       x="-22.390902"
+       height="9.7023554"
+       width="1.4855855"
+       id="rect3346"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3348"
+       width="1.8377954"
+       height="13.020357"
+       x="-644.40967"
+       y="625.78302"
+       transform="matrix(0.57341624,-0.81926419,0.76770812,0.64079969,0,0)" />
+    <rect
+       transform="matrix(0.57341624,-0.81926419,0.76770812,0.64079969,0,0)"
+       y="611.1546"
+       x="-736.93469"
+       height="13.020357"
+       width="1.8377954"
+       id="rect3350"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

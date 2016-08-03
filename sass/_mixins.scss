@@ -1,0 +1,21 @@
+// Margin & Padding 
+@mixin margin($top, $right, $bottom, $left) {
+  margin-top: unquote($top + "px");
+  margin-right: unquote($right + "px");
+  margin-bottom: unquote($bottom + "px");
+  margin-left: unquote($left + "px");
+}
+
+@mixin padding($top, $right, $bottom, $left) {
+  padding-top: unquote($top + "px");
+  padding-right: unquote($right + "px");
+  padding-bottom: unquote($bottom + "px");
+  padding-left: unquote($left + "px");
+}
+
+@mixin background-default {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

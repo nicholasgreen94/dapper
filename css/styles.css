@@ -1,0 +1,164 @@
+text-white {
+  color: #fff; }
+
+text-lowercase, button.small, .menu li
+> a, h1, h3 {
+  text-transform: lowercase; }
+
+button.small {
+  background: transparent;
+  border: 1px solid #fff;
+  font-weight: 400;
+  margin-top: 32px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px; }
+  @media only screen and (min-width: 40em) {
+    button.small {
+      margin-top: 52px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px; } }
+  button.small:hover {
+    background: #fff;
+    color: #4d4d4d;
+    text-transform: uppercase; }
+
+.menu li
+> a {
+  color: #000;
+  font-family: "Josefin Sans";
+  font-size: 1em;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px; }
+  .menu li
+  > a:hover {
+    text-transform: uppercase; }
+
+.menu .img-link {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 6px;
+  margin-left: 0px; }
+
+.black_logo {
+  width: 100px; }
+
+.jackets_logo,
+.shirts_logo {
+  width: 200px; }
+
+body {
+  line-height: 1.8;
+  font-family: "Josefin Sans";
+  font-size: 1em;
+  font-weight: 400; }
+
+.row {
+  max-width: 100%; }
+
+h1 {
+  color: #fff;
+  font-size: 1.953em;
+  font-weight: 700;
+  padding-top: 384px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 18px; }
+  @media only screen and (min-width: 40em) {
+    h1 {
+      font-size: 2.441em;
+      padding-top: 376px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 12px; } }
+  @media only screen and (min-width: 64em) {
+    h1 {
+      padding-top: 442px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 32px; } }
+
+h2 {
+  font-size: 1.953em; }
+
+h3 {
+  color: #fff;
+  font-size: 1.25em;
+  font-weight: 700;
+  padding-top: 114px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px; }
+  @media only screen and (min-width: 40em) {
+    h3 {
+      font-size: 1.563em;
+      padding-top: 172px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px; } }
+
+/* https://hd.unsplash.com/photo-1468245856972-a0333f3f8293 */
+.main-header {
+  background: url("https://hd.unsplash.com/photo-1467843182948-36a9b559865e");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  height: 434px; }
+  @media only screen and (min-width: 64em) {
+    .main-header {
+      height: 502px; } }
+
+.main-nav {
+  height: 60px; }
+  @media only screen and (min-width: 40em) {
+    .main-nav {
+      margin-top: 64px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px; } }
+  .main-nav .top-bar {
+    margin-top: 13px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px; }
+  .main-nav .title-bar,
+  .main-nav .top-bar,
+  .main-nav .menu {
+    background: #fff; }
+
+.jackets, .shirts {
+  margin-top: 32px;
+  margin-right: 0px;
+  margin-bottom: 12px;
+  margin-left: 0px; }
+  @media only screen and (min-width: 40em) {
+    .jackets, .shirts {
+      margin-top: 64px;
+      margin-right: 0px;
+      margin-bottom: 24px;
+      margin-left: 0px; } }
+  .jackets .jacket-info, .shirts .jacket-info, .shirts .shirt-info {
+    background: url("https://hd.unsplash.com/photo-1458762671984-b6d9ff0b327b");
+    height: 384px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 22.5% 100%; }
+    @media only screen and (min-width: 64em) {
+      .jackets .jacket-info, .shirts .jacket-info, .shirts .shirt-info {
+        height: 486px; } }
+
+.shirts .shirt-info {
+  background: url("https://hd.unsplash.com/photo-1442328166075-47fe7153c128");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media only screen and (min-width: 40em) {
+    .shirts .shirt-info {
+      background-position: 0% 0%; } }
+
+/*# sourceMappingURL=styles.css.map */
