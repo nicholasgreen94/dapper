@@ -12,6 +12,22 @@
     <link rel="stylesheet" href="css/screen.css">
   </head>
   <body>
+    
+    <div class="product-sidebar">
+      <span href="#" data-activates="product-navigation" class="button-collapse">x</span>
+      <div class="side-nav">
+        <h4 class="text-center"><img class="products_logo" src="img/products.svg"></h4>
+        <ul class="text-left" id="product-navigation">
+          <li><a href="index.html">Jackets<img src="img/user-2.png"></a></li>
+          <li><a href="badges.html">Shirts<img src="img/shirt-1.png"></a></li>
+          <li><a href="collapsible.html">Pants<img src="img/jeans.png"></a></li>
+          <li><a href="mobile.html">Shoes<img src="img/boot.png"></a></li>
+          <li><a href="mobile.html">Watches<img src="img/watch.png"></a></li>
+          <li><a href="mobile.html">Accessories<img src="img/backpack.png"></a></li>
+        </ul>
+      </div>
+    </div>
+    
     <!-- .mobile-nav (hidden in medium screen values) -->
     <nav class="mobile-nav" id="mobile-top">
       <div class="top-bar" id="navigation">
@@ -20,7 +36,7 @@
             <a class="img-link" href="#"><img class="dapper_logo" src="img/dapper_logo.svg"></a><br>
             <ul class="menu horizontal dropdown" data-dropdown-menu>
               <li><a href="#">Home</a></li>
-              <li><a href="#">Products</a></li>
+              <li><a class="product" href="#">Products</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Contact</a></li>
             </ul><!-- .menu -->
@@ -29,6 +45,7 @@
       </div><!-- .top-bar -->
     </nav>
     <!-- .mobile-nav (hidden in medium screen values)  -->
+  
     <!-- .main-nav (hidden in small screen values)  -->
     <nav class="main-nav" id="top" >
       <!-- repsonsive-navigation -->
@@ -38,7 +55,7 @@
           <div class="menu-centered">
             <ul class="menu horizontal dropdown" data-dropdown-menu>
               <li><a href="#">Home</a></li>
-              <li><a href="#">Products</a></li>
+              <li><a class="product" href="#">Products</a></li>
               <li><a class="img-link" href="#"><img class="dapper_logo" src="img/dapper_logo.svg"></a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Contact</a></li>
@@ -48,6 +65,7 @@
       </div><!-- .top-bar -->
     </nav>
     <!-- .main-nav (hidden in small screen values)  -->
+    
     <!-- .main-header -->
       <div class="row">
         <div class="small-offset-1 small-10">
@@ -179,5 +197,6 @@
     <script>
       $(document).foundation();
     </script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>

@@ -103,32 +103,18 @@ button.small:hover {
   color: #4d4d4d;
 }
 
-/* line 3, ../sass/_typography.scss */
-.menu li
-> a {
-  color: #000;
-  font-family: "Josefin Sans", helvetica, verdana, arial, sans-serif;
-  font-size: 1em;
-  padding-top: 5px;
-  padding-right: 10px;
-  padding-bottom: 5px;
-  padding-left: 10px;
+/* line 18, ../sass/_buttons.scss */
+.button-collapse {
+  font-size: 1.953em;
+  font-weight: 300;
+  margin-top: -12px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 12px;
 }
-/* line 10, ../sass/_typography.scss */
-.menu li
-> a:hover {
-  text-transform: uppercase;
-}
-
-/* line 17, ../sass/_typography.scss */
-.main-footer a {
-  color: #000;
-  font-size: 1.25em;
-  font-weight: 700;
-}
-/* line 21, ../sass/_typography.scss */
-.main-footer a:hover {
-  font-weight: 400;
+/* line 22, ../sass/_buttons.scss */
+.button-collapse:hover {
+  cursor: pointer;
 }
 
 /* line 2, ../sass/_logos.scss */
@@ -172,6 +158,124 @@ button.small:hover {
   .accessory_logo {
     width: 200px;
   }
+}
+
+/* line 30, ../sass/_logos.scss */
+.products_logo {
+  width: 200px;
+}
+
+/* line 3, ../sass/_typography.scss */
+.menu li
+> a {
+  color: #000;
+  font-family: "Josefin Sans", helvetica, verdana, arial, sans-serif;
+  font-size: 1em;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+/* line 10, ../sass/_typography.scss */
+.menu li
+> a:hover {
+  text-transform: uppercase;
+}
+
+/* line 17, ../sass/_typography.scss */
+.main-footer a {
+  color: #000;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+/* line 21, ../sass/_typography.scss */
+.main-footer a:hover {
+  font-weight: 400;
+}
+
+/* line 2, ../sass/_sidebars.scss */
+.product-sidebar {
+  background: #fff;
+  height: 75%;
+  position: fixed;
+  left: 12.5%;
+  width: 285px;
+  z-index: 999;
+}
+@media only screen and (min-width: 40em) {
+  /* line 2, ../sass/_sidebars.scss */
+  .product-sidebar {
+    left: 30%;
+    width: 385px;
+  }
+}
+@media only screen and (min-width: 64em) {
+  /* line 2, ../sass/_sidebars.scss */
+  .product-sidebar {
+    left: 35%;
+  }
+}
+/* line 16, ../sass/_sidebars.scss */
+.product-sidebar li {
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+}
+/* line 19, ../sass/_sidebars.scss */
+.product-sidebar a {
+  color: #000;
+  font-size: 1.25em;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+/* line 24, ../sass/_sidebars.scss */
+.product-sidebar a:hover {
+  font-size: 1.563em;
+}
+/* line 27, ../sass/_sidebars.scss */
+.product-sidebar a img {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 12px;
+  width: 18px;
+}
+
+/* line 34, ../sass/_sidebars.scss */
+#product-navigation {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 96px;
+  padding-top: 24px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+@media only screen and (min-width: 40em) {
+  /* line 34, ../sass/_sidebars.scss */
+  #product-navigation {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 146px;
+    padding-top: 24px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+}
+
+/* line 43, ../sass/_sidebars.scss */
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
 /* line 5, ../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
@@ -304,6 +408,16 @@ h3 {
 }
 
 /* line 44, ../sass/_globals.scss */
+h4 {
+  font-size: 1.953em;
+  text-transform: lowercase;
+  padding-top: 32px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+/* line 50, ../sass/_globals.scss */
 hr {
   border-bottom: 1px solid #000;
   width: 250px;
