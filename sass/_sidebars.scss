@@ -7,36 +7,46 @@
   width: 285px;
   z-index: 999;
   @media only screen and (min-width: 40em) {
-    left: 30%;
-    width: 385px;
-  }
-  @media only screen and (min-width: 64em) {
-    left: 35%;
+    left: 18%;
+    height: 80%;
+    width: 800px;
   }
   li {
-    @include padding(5, 0, 5, 0);
-  }
+    &:hover {
+      background: $black;
+    }
   a {
     color: $black;
+    display: block;
     font-size: $fourth-header;
     font-weight: 700;
     text-transform: lowercase;
+    @include margin(0, 0, 0, 72);
+    @include padding(5, 0, 5, 0);
     &:hover {
-      font-size: $third-header;
+      color: $white;
     }
     img {
       @include margin(0, 0, 0, 12);
       width: 18px;
+      }
     }
   }
 }
 
 #product-navigation {
-  @include margin(0, 0, 0, 96);
-  @include padding(24, 0, 0, 0);
+  @include padding(24, 0, 0, 96);
+  width: 300px;
   @media only screen and (min-width: 40em) {
-    @include margin(0, 0, 0, 146);
     @include padding(24, 0, 0, 0);
+  }
+}
+
+.img-list {
+  width: 500px;
+  img {
+    position: relative;
+    top: -311.5px;
   }
 }
 

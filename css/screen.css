@@ -205,36 +205,37 @@ button.small:hover {
 @media only screen and (min-width: 40em) {
   /* line 2, ../sass/_sidebars.scss */
   .product-sidebar {
-    left: 30%;
-    width: 385px;
+    left: 18%;
+    height: 80%;
+    width: 800px;
   }
 }
-@media only screen and (min-width: 64em) {
-  /* line 2, ../sass/_sidebars.scss */
-  .product-sidebar {
-    left: 35%;
-  }
+/* line 15, ../sass/_sidebars.scss */
+.product-sidebar li:hover {
+  background: #000;
 }
-/* line 16, ../sass/_sidebars.scss */
-.product-sidebar li {
+/* line 18, ../sass/_sidebars.scss */
+.product-sidebar li a {
+  color: #000;
+  display: block;
+  font-size: 1.25em;
+  font-weight: 700;
+  text-transform: lowercase;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 72px;
   padding-top: 5px;
   padding-right: 0px;
   padding-bottom: 5px;
   padding-left: 0px;
 }
-/* line 19, ../sass/_sidebars.scss */
-.product-sidebar a {
-  color: #000;
-  font-size: 1.25em;
-  font-weight: 700;
-  text-transform: lowercase;
+/* line 26, ../sass/_sidebars.scss */
+.product-sidebar li a:hover {
+  color: #fff;
 }
-/* line 24, ../sass/_sidebars.scss */
-.product-sidebar a:hover {
-  font-size: 1.563em;
-}
-/* line 27, ../sass/_sidebars.scss */
-.product-sidebar a img {
+/* line 29, ../sass/_sidebars.scss */
+.product-sidebar li a img {
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
@@ -242,24 +243,17 @@ button.small:hover {
   width: 18px;
 }
 
-/* line 34, ../sass/_sidebars.scss */
+/* line 37, ../sass/_sidebars.scss */
 #product-navigation {
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 96px;
   padding-top: 24px;
   padding-right: 0px;
   padding-bottom: 0px;
-  padding-left: 0px;
+  padding-left: 96px;
+  width: 300px;
 }
 @media only screen and (min-width: 40em) {
-  /* line 34, ../sass/_sidebars.scss */
+  /* line 37, ../sass/_sidebars.scss */
   #product-navigation {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 146px;
     padding-top: 24px;
     padding-right: 0px;
     padding-bottom: 0px;
@@ -267,7 +261,17 @@ button.small:hover {
   }
 }
 
-/* line 43, ../sass/_sidebars.scss */
+/* line 45, ../sass/_sidebars.scss */
+.img-list {
+  width: 500px;
+}
+/* line 47, ../sass/_sidebars.scss */
+.img-list img {
+  position: relative;
+  top: -311.5px;
+}
+
+/* line 53, ../sass/_sidebars.scss */
 .overlay {
   width: 100%;
   height: 100%;
@@ -413,7 +417,7 @@ h4 {
   text-transform: lowercase;
   padding-top: 32px;
   padding-right: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 32px;
   padding-left: 0px;
 }
 

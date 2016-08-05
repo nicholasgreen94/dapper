@@ -44,7 +44,7 @@ h3 {
 h4 {
   font-size: $secondary-header;
   text-transform: lowercase;
-  @include padding(32, 0, 0, 0);
+  @include padding(32, 0, 32, 0);
 }
 
 hr {
