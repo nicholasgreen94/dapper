@@ -58,8 +58,40 @@ $(function() {
       $(".showProductImg").remove();
   } 
   });
-  
-  
-  
-  
 }) // End jQuery
+  
+  
+  // Google map 
+    
+  var apiKey = "AIzaSyBnPeo1myAU1zt3iWMX19lLD7JfpusDcWk";
+
+  function initMap() {
+    var showMap =  {
+      center: new google.maps.LatLng(40.758701, -111.876183),
+      mapTypeId: google.maps.MapTypeId.TERRAIN,
+      zoom: 13,
+      streetViewControl: true,
+      streetViewControlOptions: {
+      style: google.maps.ZoomControlStyle.large,
+      position: google.maps.ControlPosition.BOTTOM_LEFT	
+    }
+  }
+    
+  var venueMap;
+  venueMap = new google.maps.Map(document.getElementById("map"), showMap);
+    
+  var marker = new google.maps.Marker({
+    position: new google.maps.LatLng(40.758701, -111.876183),
+    animation:google.maps.Animation.DROP,
+    opacity: 1
+  });
+    
+  marker.setMap(venueMap);
+  }
+
+  function loadScript() {
+    var script = document.createElement("script");
+    script.src = "https://maps.googleapis.com/maps/api/js?key=" + apiKey + "&callback=initMap";
+    document.body.appendChild(script);
+  }
+  window.onload = loadScript();

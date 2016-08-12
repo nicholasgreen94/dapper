@@ -1,5 +1,4 @@
 
-/* https://hd.unsplash.com/photo-1468245856972-a0333f3f8293 */
 // .main-header 
 .main-header {
   background: url("https://hd.unsplash.com/photo-1467843182948-36a9b559865e");
@@ -161,3 +160,39 @@
   }
 }
 
+.about-header {
+  @include background(url("https://hd.unsplash.com/photo-1431277366844-244b1451984d"));
+  @include background-default;
+  background-position: 0% 76%;
+}
+
+.about-content {
+  @media only screen and (min-width: 64em) {
+    @include padding(124, 0, 0, 0);
+  }
+}
+
+.location {
+  @media only screen and (min-width: 64em) {
+    @include padding(24, 0, 24, 0);
+  }
+}
+
+#map {
+  height: 300px;
+  @include margin(12, auto, 0, auto);
+  @media only screen and (min-width: 64em) {
+    @include margin(84, auto, 0, auto);
+  }
+}
+
+.about-picture {
+  height: 384px;
+  @include background(url("https://hd.unsplash.com/photo-1432599506048-7522c767f671"));
+  @include background-default;
+  @include margin(32, 0, 12, 0);
+  @media only screen and (min-width: 40em) {
+    height: 486px;
+    @include margin(132, 0, 24, 0);
+  }
+}

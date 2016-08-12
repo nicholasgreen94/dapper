@@ -23,3 +23,21 @@
     }
   }
 }
+
+.established {
+  @include padding(84, 0, 0, 0);
+}
+.location-heading {
+  @include padding(64, 0, 0, 0);
+  @media only screen and (min-width: 64em) {
+    @include padding(144, 0, 0, 0);
+  }
+}
+
+h2 {
+  span,
+  address {
+    font-size: $small-font-size;
+    font-weight: 200;
+  }
+}

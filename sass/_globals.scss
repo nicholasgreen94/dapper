@@ -27,7 +27,11 @@ h1 {
   }
 }
 
-
+h2 {
+  font-size: $secondary-header;
+  font-weight: 700;
+  @extend text-lowercase;
+}
 
 h3 {
   color: $white;
@@ -42,6 +46,11 @@ h3 {
 }
 
 h4 {
+  font-size: $secondary-header;
+  text-transform: lowercase;
+}
+
+h5 {
   font-size: $secondary-header;
   text-transform: lowercase;
   @include padding(32, 0, 32, 0);
