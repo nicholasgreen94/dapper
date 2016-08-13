@@ -40,4 +40,20 @@ h2 {
     font-size: $small-font-size;
     font-weight: 200;
   }
+  a {
+    color: $black;
+    @include transition(.84s);
+    &:hover {
+      color: $black;
+      font-size: $fourth-header;
+    }
+  }
+}
+
+.phone,
+.email {
+  @include padding(64, 0, 0, 0);
+  @media only screen and (min-width: 40em) {
+    @include padding(0, 0, 0, 0);
+  }
 }

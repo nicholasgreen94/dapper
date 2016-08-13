@@ -224,11 +224,43 @@ h2 address {
   font-size: 0.8em;
   font-weight: 200;
 }
+/* line 43, ../sass/_typography.scss */
+h2 a {
+  color: #000;
+  -moz-transition: 0.84s;
+  -o-transition: 0.84s;
+  -webkit-transition: 0.84s;
+  transition: 0.84s;
+}
+/* line 46, ../sass/_typography.scss */
+h2 a:hover {
+  color: #000;
+  font-size: 1.25em;
+}
+
+/* line 53, ../sass/_typography.scss */
+.phone,
+.email {
+  padding-top: 64px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+@media only screen and (min-width: 40em) {
+  /* line 53, ../sass/_typography.scss */
+  .phone,
+  .email {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+}
 
 /* line 2, ../sass/_sidebars.scss */
 .product-sidebar {
   background: #fff;
-  height: 75%;
+  height: 80%;
   position: fixed;
   left: 12.5%;
   width: 285px;
@@ -237,16 +269,23 @@ h2 address {
 @media only screen and (min-width: 40em) {
   /* line 2, ../sass/_sidebars.scss */
   .product-sidebar {
+    left: 36%;
+    height: 80%;
+  }
+}
+@media only screen and (min-width: 64em) {
+  /* line 2, ../sass/_sidebars.scss */
+  .product-sidebar {
     left: 18%;
     height: 80%;
     width: 800px;
   }
 }
-/* line 15, ../sass/_sidebars.scss */
+/* line 19, ../sass/_sidebars.scss */
 .product-sidebar li:hover {
   background: #000;
 }
-/* line 18, ../sass/_sidebars.scss */
+/* line 22, ../sass/_sidebars.scss */
 .product-sidebar li a {
   color: #000;
   display: block;
@@ -262,11 +301,11 @@ h2 address {
   padding-bottom: 5px;
   padding-left: 0px;
 }
-/* line 26, ../sass/_sidebars.scss */
+/* line 30, ../sass/_sidebars.scss */
 .product-sidebar li a:hover {
   color: #fff;
 }
-/* line 29, ../sass/_sidebars.scss */
+/* line 33, ../sass/_sidebars.scss */
 .product-sidebar li a img {
   margin-top: 0px;
   margin-right: 0px;
@@ -275,16 +314,16 @@ h2 address {
   width: 18px;
 }
 
-/* line 37, ../sass/_sidebars.scss */
+/* line 41, ../sass/_sidebars.scss */
 #product-navigation {
+  width: 300px;
   padding-top: 24px;
   padding-right: 0px;
   padding-bottom: 0px;
-  padding-left: 96px;
-  width: 300px;
+  padding-left: 0px;
 }
 @media only screen and (min-width: 40em) {
-  /* line 37, ../sass/_sidebars.scss */
+  /* line 41, ../sass/_sidebars.scss */
   #product-navigation {
     padding-top: 24px;
     padding-right: 0px;
@@ -293,17 +332,24 @@ h2 address {
   }
 }
 
-/* line 45, ../sass/_sidebars.scss */
+/* line 49, ../sass/_sidebars.scss */
 .img-list {
   width: 500px;
+  display: none;
 }
-/* line 47, ../sass/_sidebars.scss */
+@media only screen and (min-width: 64em) {
+  /* line 49, ../sass/_sidebars.scss */
+  .img-list {
+    display: inline-block;
+  }
+}
+/* line 55, ../sass/_sidebars.scss */
 .img-list img {
   position: relative;
   top: -311.5px;
 }
 
-/* line 53, ../sass/_sidebars.scss */
+/* line 61, ../sass/_sidebars.scss */
 .overlay {
   width: 100%;
   height: 100%;
@@ -735,7 +781,7 @@ hr {
   transform: scale(1.25, 1.25);
 }
 
-/* line 163, ../sass/_layout.scss */
+/* line 164, ../sass/_layout.scss */
 .about-header {
   background: url("https://hd.unsplash.com/photo-1431277366844-244b1451984d");
   background-position: 50% 50%;
@@ -745,8 +791,9 @@ hr {
 }
 
 @media only screen and (min-width: 64em) {
-  /* line 169, ../sass/_layout.scss */
-  .about-content {
+  /* line 170, ../sass/_layout.scss */
+  .about-content,
+  .contact-info {
     padding-top: 124px;
     padding-right: 0px;
     padding-bottom: 0px;
@@ -755,7 +802,7 @@ hr {
 }
 
 @media only screen and (min-width: 64em) {
-  /* line 175, ../sass/_layout.scss */
+  /* line 177, ../sass/_layout.scss */
   .location {
     padding-top: 24px;
     padding-right: 0px;
@@ -764,7 +811,7 @@ hr {
   }
 }
 
-/* line 181, ../sass/_layout.scss */
+/* line 183, ../sass/_layout.scss */
 #map {
   height: 300px;
   margin-top: 12px;
@@ -773,7 +820,7 @@ hr {
   margin-left: autopx;
 }
 @media only screen and (min-width: 64em) {
-  /* line 181, ../sass/_layout.scss */
+  /* line 183, ../sass/_layout.scss */
   #map {
     margin-top: 84px;
     margin-right: autopx;
@@ -782,7 +829,7 @@ hr {
   }
 }
 
-/* line 189, ../sass/_layout.scss */
+/* line 191, ../sass/_layout.scss */
 .about-picture {
   height: 384px;
   background: url("https://hd.unsplash.com/photo-1432599506048-7522c767f671");
@@ -795,7 +842,7 @@ hr {
   margin-left: 0px;
 }
 @media only screen and (min-width: 40em) {
-  /* line 189, ../sass/_layout.scss */
+  /* line 191, ../sass/_layout.scss */
   .about-picture {
     height: 486px;
     margin-top: 132px;
@@ -803,4 +850,21 @@ hr {
     margin-bottom: 24px;
     margin-left: 0px;
   }
+}
+
+/* line 203, ../sass/_layout.scss */
+.contact-header {
+  background: url("https://hd.unsplash.com/photo-1462907715766-a2863567b2a4");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 76%;
+}
+
+/* line 209, ../sass/_layout.scss */
+.return-policy {
+  margin-top: 48px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
 }

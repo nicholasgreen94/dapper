@@ -160,13 +160,15 @@
   }
 }
 
+// About page
 .about-header {
   @include background(url("https://hd.unsplash.com/photo-1431277366844-244b1451984d"));
   @include background-default;
   background-position: 0% 76%;
 }
 
-.about-content {
+.about-content,
+.contact-info {
   @media only screen and (min-width: 64em) {
     @include padding(124, 0, 0, 0);
   }
@@ -195,4 +197,15 @@
     height: 486px;
     @include margin(132, 0, 24, 0);
   }
+}
+
+// Contact page
+.contact-header {
+  @include background(url("https://hd.unsplash.com/photo-1462907715766-a2863567b2a4"));
+  @include background-default;
+  background-position: 0% 76%;
+}
+
+.return-policy {
+  @include margin(48, 0, 0, 0);
 }
