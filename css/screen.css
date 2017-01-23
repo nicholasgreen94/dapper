@@ -602,16 +602,16 @@ hr {
 
 /* line 51, ../sass/_layout.scss */
 .deafultProductImg {
-  height: 384px;
+  height: 330px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 22.5% 100%;
+  background-position: 0% 0%;
 }
 @media only screen and (min-width: 64em) {
   /* line 51, ../sass/_layout.scss */
   .deafultProductImg {
-    height: 486px;
+    width: 500px;
   }
 }
 

@@ -49,11 +49,11 @@
 }
 
 .deafultProductImg {
-  height: 384px;
+  height: 330px;
   @include background-default;
-  background-position: 22.5% 100%;
+  background-position: 0% 0%;
   @media only screen and (min-width: 64em) {
-    height: 486px;
+    width: 500px;
   }
 }
 
