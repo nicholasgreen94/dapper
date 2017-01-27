@@ -2,14 +2,11 @@
 .product-sidebar {
   background: $white;
   padding-bottom: 32px;
-  overflow-y: scroll;
-  overflow-x: hidden;
   position: fixed;
   left: 12.5%;
   width: 285px;
   z-index: 999;
   @media only screen and (min-width: 40em) {
-    overflow: hidden;
     left: 36%;
   }
   @media only screen and (min-width: 64em) {
