@@ -261,6 +261,8 @@ h2 a:hover {
 .product-sidebar {
   background: #fff;
   padding-bottom: 32px;
+  overflow-y: scroll;
+  overflow-x: hidden;
   position: fixed;
   left: 12.5%;
   width: 285px;
@@ -269,6 +271,7 @@ h2 a:hover {
 @media only screen and (min-width: 40em) {
   /* line 2, ../sass/_sidebars.scss */
   .product-sidebar {
+    overflow: hidden;
     left: 36%;
   }
 }
@@ -279,11 +282,11 @@ h2 a:hover {
     width: 800px;
   }
 }
-/* line 17, ../sass/_sidebars.scss */
+/* line 20, ../sass/_sidebars.scss */
 .product-sidebar li:hover {
   background: #000;
 }
-/* line 20, ../sass/_sidebars.scss */
+/* line 23, ../sass/_sidebars.scss */
 .product-sidebar li a {
   color: #000;
   display: block;
@@ -299,11 +302,11 @@ h2 a:hover {
   padding-bottom: 5px;
   padding-left: 0px;
 }
-/* line 28, ../sass/_sidebars.scss */
+/* line 31, ../sass/_sidebars.scss */
 .product-sidebar li a:hover {
   color: #fff;
 }
-/* line 31, ../sass/_sidebars.scss */
+/* line 34, ../sass/_sidebars.scss */
 .product-sidebar li a img {
   margin-top: 0px;
   margin-right: 0px;
@@ -312,7 +315,7 @@ h2 a:hover {
   width: 18px;
 }
 
-/* line 39, ../sass/_sidebars.scss */
+/* line 42, ../sass/_sidebars.scss */
 #product-navigation {
   width: 285px;
   padding-top: 24px;
@@ -321,7 +324,7 @@ h2 a:hover {
   padding-left: 0px;
 }
 @media only screen and (min-width: 40em) {
-  /* line 39, ../sass/_sidebars.scss */
+  /* line 42, ../sass/_sidebars.scss */
   #product-navigation {
     padding-top: 24px;
     padding-right: 0px;
@@ -330,24 +333,24 @@ h2 a:hover {
   }
 }
 
-/* line 47, ../sass/_sidebars.scss */
+/* line 50, ../sass/_sidebars.scss */
 .img-list {
   width: 500px;
   display: none;
 }
 @media only screen and (min-width: 64em) {
-  /* line 47, ../sass/_sidebars.scss */
+  /* line 50, ../sass/_sidebars.scss */
   .img-list {
     display: inline-block;
   }
 }
-/* line 53, ../sass/_sidebars.scss */
+/* line 56, ../sass/_sidebars.scss */
 .img-list img {
   position: relative;
   top: -311.5px;
 }
 
-/* line 59, ../sass/_sidebars.scss */
+/* line 62, ../sass/_sidebars.scss */
 .overlay {
   width: 100%;
   height: 100%;
