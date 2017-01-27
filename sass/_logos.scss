@@ -6,13 +6,13 @@
 
 .mobile-nav {
   .dapper_logo {
-    width: 100px;
+    width: 150px;
     @include margin(0, 0, 6, 0); 
   }
 }
 
 .dapper_logo {
-  width: 94px;
+  width: 100px;
 }
 
 .jackets_logo,
@@ -20,10 +20,11 @@
 .pants_logo,
 .shoes_logo,
 .watches_logo,
-.accessory_logo, {
-  width: 100px;
+.accessory_logo {
+  max-width: 100%;
+  width: 125px;
   @media only screen and (min-width: 40em) {
-  width: 200px;
+    width: 150px;
   }
 }
 

@@ -127,7 +127,7 @@ button.small:hover {
 
 /* line 8, ../sass/_logos.scss */
 .mobile-nav .dapper_logo {
-  width: 100px;
+  width: 150px;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 6px;
@@ -136,7 +136,7 @@ button.small:hover {
 
 /* line 14, ../sass/_logos.scss */
 .dapper_logo {
-  width: 94px;
+  width: 100px;
 }
 
 /* line 18, ../sass/_logos.scss */
@@ -146,7 +146,8 @@ button.small:hover {
 .shoes_logo,
 .watches_logo,
 .accessory_logo {
-  width: 100px;
+  max-width: 100%;
+  width: 125px;
 }
 @media only screen and (min-width: 40em) {
   /* line 18, ../sass/_logos.scss */
@@ -156,11 +157,11 @@ button.small:hover {
   .shoes_logo,
   .watches_logo,
   .accessory_logo {
-    width: 200px;
+    width: 150px;
   }
 }
 
-/* line 30, ../sass/_logos.scss */
+/* line 31, ../sass/_logos.scss */
 .products_logo {
   width: 200px;
 }
