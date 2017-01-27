@@ -260,7 +260,7 @@ h2 a:hover {
 /* line 2, ../sass/_sidebars.scss */
 .product-sidebar {
   background: #fff;
-  height: 80%;
+  height: 90%;
   position: fixed;
   left: 12.5%;
   width: 285px;
