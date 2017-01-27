@@ -146,7 +146,6 @@ button.small:hover {
 .shoes_logo,
 .watches_logo,
 .accessory_logo {
-  max-width: 100%;
   width: 125px;
 }
 @media only screen and (min-width: 40em) {
@@ -161,7 +160,7 @@ button.small:hover {
   }
 }
 
-/* line 31, ../sass/_logos.scss */
+/* line 30, ../sass/_logos.scss */
 .products_logo {
   width: 200px;
 }
