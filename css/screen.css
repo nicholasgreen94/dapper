@@ -503,10 +503,7 @@ h4 {
 h5 {
   font-size: 1.953em;
   text-transform: lowercase;
-  padding-top: 32px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
+  padding: 0;
 }
 
 /* line 59, ../sass/_globals.scss */
