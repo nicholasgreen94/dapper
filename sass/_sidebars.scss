@@ -1,18 +1,16 @@
 
 .product-sidebar {
   background: $white;
-  height: 500px;
+  padding-bottom: 32px;
   position: fixed;
   left: 12.5%;
   width: 285px;
   z-index: 999;
   @media only screen and (min-width: 40em) {
     left: 36%;
-    height: 80%;
   }
   @media only screen and (min-width: 64em) {
     left: 18%;
-    height: 80%;
     width: 800px;
   }
   li {
@@ -39,7 +37,7 @@
 }
 
 #product-navigation {
-  width: 300px;
+  width: 285px;
   @include padding(24, 0, 0, 0);
   @media only screen and (min-width: 40em) {
     @include padding(24, 0, 0, 0);

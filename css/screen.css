@@ -179,7 +179,7 @@ button.small:hover {
 /* line 10, ../sass/_typography.scss */
 .menu li
 > a:hover {
-  text-transform: uppercase;
+  text-decoration: underline;
 }
 
 /* line 17, ../sass/_typography.scss */
@@ -260,7 +260,7 @@ h2 a:hover {
 /* line 2, ../sass/_sidebars.scss */
 .product-sidebar {
   background: #fff;
-  height: 500px;
+  padding-bottom: 32px;
   position: fixed;
   left: 12.5%;
   width: 285px;
@@ -270,22 +270,20 @@ h2 a:hover {
   /* line 2, ../sass/_sidebars.scss */
   .product-sidebar {
     left: 36%;
-    height: 80%;
   }
 }
 @media only screen and (min-width: 64em) {
   /* line 2, ../sass/_sidebars.scss */
   .product-sidebar {
     left: 18%;
-    height: 80%;
     width: 800px;
   }
 }
-/* line 19, ../sass/_sidebars.scss */
+/* line 17, ../sass/_sidebars.scss */
 .product-sidebar li:hover {
   background: #000;
 }
-/* line 22, ../sass/_sidebars.scss */
+/* line 20, ../sass/_sidebars.scss */
 .product-sidebar li a {
   color: #000;
   display: block;
@@ -301,11 +299,11 @@ h2 a:hover {
   padding-bottom: 5px;
   padding-left: 0px;
 }
-/* line 30, ../sass/_sidebars.scss */
+/* line 28, ../sass/_sidebars.scss */
 .product-sidebar li a:hover {
   color: #fff;
 }
-/* line 33, ../sass/_sidebars.scss */
+/* line 31, ../sass/_sidebars.scss */
 .product-sidebar li a img {
   margin-top: 0px;
   margin-right: 0px;
@@ -314,16 +312,16 @@ h2 a:hover {
   width: 18px;
 }
 
-/* line 41, ../sass/_sidebars.scss */
+/* line 39, ../sass/_sidebars.scss */
 #product-navigation {
-  width: 300px;
+  width: 285px;
   padding-top: 24px;
   padding-right: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
 }
 @media only screen and (min-width: 40em) {
-  /* line 41, ../sass/_sidebars.scss */
+  /* line 39, ../sass/_sidebars.scss */
   #product-navigation {
     padding-top: 24px;
     padding-right: 0px;
@@ -332,24 +330,24 @@ h2 a:hover {
   }
 }
 
-/* line 49, ../sass/_sidebars.scss */
+/* line 47, ../sass/_sidebars.scss */
 .img-list {
   width: 500px;
   display: none;
 }
 @media only screen and (min-width: 64em) {
-  /* line 49, ../sass/_sidebars.scss */
+  /* line 47, ../sass/_sidebars.scss */
   .img-list {
     display: inline-block;
   }
 }
-/* line 55, ../sass/_sidebars.scss */
+/* line 53, ../sass/_sidebars.scss */
 .img-list img {
   position: relative;
   top: -311.5px;
 }
 
-/* line 61, ../sass/_sidebars.scss */
+/* line 59, ../sass/_sidebars.scss */
 .overlay {
   width: 100%;
   height: 100%;
