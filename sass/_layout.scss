@@ -1,7 +1,7 @@
 
 // .main-header 
 .main-header {
-  background: url("https://hd.unsplash.com/photo-1467843182948-36a9b559865e");
+  background: url("../img/main-photo.jpg");
   @include background-default;
   background-position: 96% 100%;
   height: 434px;
@@ -71,7 +71,7 @@
     @include margin(64, 0, 24, 0);
   }
   .jacket-info {
-    background: url("https://hd.unsplash.com/photo-1458762671984-b6d9ff0b327b");
+    background: url("../img/jacket-photo.jpg");
     height: 384px;
     @include background-default;
     background-position: 22.5% 100%;
@@ -85,7 +85,7 @@
   @extend .jackets;
   .shirt-info {
     @extend .jacket-info;
-      background: url("https://hd.unsplash.com/photo-1442328166075-47fe7153c128");
+      background: url("../img/white-shirt.jpg");
       @include background-default;
       @media only screen and (min-width: 40em) {
         background-position: 0% 0%; 
@@ -97,10 +97,10 @@
   @extend .jackets;
   .pant-info {
     @extend .jacket-info;
-      background: url("https://hd.unsplash.com/photo-1463676403413-f2216651e8a3");
+      background: url("../img/chino-pant.jpg");
       @include background-default;
       @media only screen and (min-width: 40em) {
-        background-position: 0% 0%; 
+        background-position: 0% 80%; 
       }
   }
 }
@@ -109,10 +109,10 @@
   @extend .jackets;
   .shoes-info {
     @extend .jacket-info;
-      background: url("https://hd.unsplash.com/photo-1444062069505-351e1ed9eae7");
+      background: url("../img/shoes.jpg");
       @include background-default;
       @media only screen and (min-width: 40em) {
-        background-position: 0% 0%; 
+        background-position: 0% 100%; 
       }
   }
 }
@@ -121,7 +121,7 @@
   @extend .jackets;
   .watch-info {
     @extend .jacket-info;
-      background: url("https://hd.unsplash.com/photo-1434056886845-dac89ffe9b56");
+      background: url("../img/watch.jpg");
       @include background-default;
       @media only screen and (min-width: 40em) {
         background-position: 100% 100%; 
@@ -133,7 +133,7 @@
   @extend .jackets;
   .accessories-info {
     @extend .jacket-info;
-      background: url("https://hd.unsplash.com/photo-1459356979461-dae1b8dcb702");
+      background: url("../img/socks.jpg");
       @include background-default;
       @media only screen and (min-width: 40em) {
         background-position: 0% 50%; 
@@ -171,9 +171,9 @@
 
 // About page
 .about-header {
-  @include background(url("https://hd.unsplash.com/photo-1431277366844-244b1451984d"));
+  @include background(url("../img/about.jpg"));
   @include background-default;
-  background-position: 0% 76%;
+  background-position: 0% 25%;
 }
 
 .about-content,
@@ -197,22 +197,11 @@
   }
 }
 
-.about-picture {
-  height: 384px;
-  @include background(url("https://hd.unsplash.com/photo-1432599506048-7522c767f671"));
-  @include background-default;
-  @include margin(32, 0, 12, 0);
-  @media only screen and (min-width: 40em) {
-    height: 486px;
-    @include margin(132, 0, 24, 0);
-  }
-}
-
 // Contact page
 .contact-header {
-  @include background(url("https://hd.unsplash.com/photo-1462907715766-a2863567b2a4"));
+  @include background(url("../img/contact.jpg"));
   @include background-default;
-  background-position: 0% 76%;
+  background-position: 0% 50%;
 }
 
 .return-policy {

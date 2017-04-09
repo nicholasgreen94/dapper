@@ -8,12 +8,12 @@ $(function() {
   var $productImgList = $(".img-list");
   
   // Product photo list variables
-  var jackets = "https://hd.unsplash.com/photo-1458762671984-b6d9ff0b327b";
-  var shirts = "https://hd.unsplash.com/photo-1442328166075-47fe7153c128";
-  var pants = "https://hd.unsplash.com/photo-1463676403413-f2216651e8a3";
-  var shoes = "https://hd.unsplash.com/photo-1444062069505-351e1ed9eae7";
-  var watches = "https://hd.unsplash.com/photo-1434056886845-dac89ffe9b56";
-  var accessories = "https://hd.unsplash.com/photo-1459356979461-dae1b8dcb702";  
+  var jackets = "img/menu-jacket.jpg";
+  var shirts = "img/menu-shirt.jpg";
+  var pants = "img/menu-pants.jpg";
+  var shoes = "img/menu-shoes.jpg";
+  var watches = "img/menu-watch.jpg";
+  var accessories = "img/menu-accessories.jpg";  
   
   // append .overlay to body
   $("body").append($overlay);

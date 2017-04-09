@@ -519,9 +519,17 @@ hr {
   margin-left: autopx;
 }
 
+@media screen and (min-width: 64em) {
+  /* line 65, ../sass/_globals.scss */
+  .showProductImg {
+    height: 330px;
+    width: 500px;
+  }
+}
+
 /* line 3, ../sass/_layout.scss */
 .main-header {
-  background: url("https://hd.unsplash.com/photo-1467843182948-36a9b559865e");
+  background: url("../img/main-photo.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -648,7 +656,7 @@ hr {
 }
 /* line 73, ../sass/_layout.scss */
 .jackets .jacket-info, .shirts .jacket-info, .pants .jacket-info, .shoes .jacket-info, .watches .jacket-info, .accessories .jacket-info, .shirts .shirt-info, .pants .pant-info, .shoes .shoes-info, .watches .watch-info, .accessories .accessories-info {
-  background: url("https://hd.unsplash.com/photo-1458762671984-b6d9ff0b327b");
+  background: url("../img/jacket-photo.jpg");
   height: 384px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -664,7 +672,7 @@ hr {
 
 /* line 86, ../sass/_layout.scss */
 .shirts .shirt-info {
-  background: url("https://hd.unsplash.com/photo-1442328166075-47fe7153c128");
+  background: url("../img/white-shirt.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -678,7 +686,7 @@ hr {
 
 /* line 98, ../sass/_layout.scss */
 .pants .pant-info {
-  background: url("https://hd.unsplash.com/photo-1463676403413-f2216651e8a3");
+  background: url("../img/chino-pant.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -686,13 +694,13 @@ hr {
 @media only screen and (min-width: 40em) {
   /* line 98, ../sass/_layout.scss */
   .pants .pant-info {
-    background-position: 0% 0%;
+    background-position: 0% 80%;
   }
 }
 
 /* line 110, ../sass/_layout.scss */
 .shoes .shoes-info {
-  background: url("https://hd.unsplash.com/photo-1444062069505-351e1ed9eae7");
+  background: url("../img/shoes.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -700,13 +708,13 @@ hr {
 @media only screen and (min-width: 40em) {
   /* line 110, ../sass/_layout.scss */
   .shoes .shoes-info {
-    background-position: 0% 0%;
+    background-position: 0% 100%;
   }
 }
 
 /* line 122, ../sass/_layout.scss */
 .watches .watch-info {
-  background: url("https://hd.unsplash.com/photo-1434056886845-dac89ffe9b56");
+  background: url("../img/watch.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -720,7 +728,7 @@ hr {
 
 /* line 134, ../sass/_layout.scss */
 .accessories .accessories-info {
-  background: url("https://hd.unsplash.com/photo-1459356979461-dae1b8dcb702");
+  background: url("../img/socks.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -796,11 +804,11 @@ hr {
 
 /* line 173, ../sass/_layout.scss */
 .about-header {
-  background: url("https://hd.unsplash.com/photo-1431277366844-244b1451984d");
+  background: url("../img/about.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0% 76%;
+  background-position: 0% 25%;
 }
 
 @media only screen and (min-width: 64em) {
@@ -842,39 +850,16 @@ hr {
   }
 }
 
-/* line 200, ../sass/_layout.scss */
-.about-picture {
-  height: 384px;
-  background: url("https://hd.unsplash.com/photo-1432599506048-7522c767f671");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 32px;
-  margin-right: 0px;
-  margin-bottom: 12px;
-  margin-left: 0px;
-}
-@media only screen and (min-width: 40em) {
-  /* line 200, ../sass/_layout.scss */
-  .about-picture {
-    height: 486px;
-    margin-top: 132px;
-    margin-right: 0px;
-    margin-bottom: 24px;
-    margin-left: 0px;
-  }
-}
-
-/* line 212, ../sass/_layout.scss */
+/* line 201, ../sass/_layout.scss */
 .contact-header {
-  background: url("https://hd.unsplash.com/photo-1462907715766-a2863567b2a4");
+  background: url("../img/contact.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0% 76%;
+  background-position: 0% 50%;
 }
 
-/* line 218, ../sass/_layout.scss */
+/* line 207, ../sass/_layout.scss */
 .return-policy {
   margin-top: 48px;
   margin-right: 0px;

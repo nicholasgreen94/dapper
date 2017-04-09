@@ -61,3 +61,10 @@ hr {
   width: 250px;
   @include margin(0, auto, 0, auto);
 }
+
+.showProductImg {
+  @media screen and (min-width: 64em) {
+    height: 330px;
+    width: 500px;
+  }
+}
