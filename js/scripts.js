@@ -2,62 +2,37 @@
 $(function() {
   // initial variables
   var $productSidebar = $(".product-sidebar");
-  var $overlay = $("<div class='overlay'></div>");
+  var $overlay = $("<div id='overlay'></div>");
   var $productNavigation = $("#product-navigation");
   var  productList = $("#product-navigation > li");
   var $productImgList = $(".img-list");
   
-  // Product photo list variables
-  var jackets = "img/menu-jacket.jpg";
-  var shirts = "img/menu-shirt.jpg";
-  var pants = "img/menu-pants.jpg";
-  var shoes = "img/menu-shoes.jpg";
-  var watches = "img/menu-watch.jpg";
-  var accessories = "img/menu-accessories.jpg";  
   
   // append .overlay to body
   $("body").append($overlay);
   $overlay.hide();
   
-  $productSidebar.hide();
-  
-  $(".product").on("click", function(event) {
-    event.preventDefault();
-    $productSidebar.slideDown(1000);
-    $overlay.slideDown(1000);
+  $(".product").on("click", function(e) {
+    e.preventDefault();
+    $overlay.slideDown(800);
+    $productSidebar.delay(1000).slideDown(1100);
   });
   
-  $(".button-collapse").on("click", function() {
-    $productSidebar.slideUp(1000);
-    $overlay.slideUp(1000);
-  });
+  $(document).click(function(e) {
+    var target = e.target;
+    if (  target == document.getElementById('overlay')) {
+      productMenu();
+    }
+  })
   
-  // when hovering over an item in products menu show new image on right side
-  $productNavigation.on("mouseover", "a", function() {
-    var thisText = $(this).text().toLowerCase();
-      $(".deafultProductImg").hide();
-    
-      if (thisText === "jackets") {
-        $productImgList.append("<img class='showProductImg' src='" + jackets+"'>");
-      } else if (thisText === "shirts") {
-        $productImgList.append("<img class='showProductImg' src='" + shirts +"'>");
-      } else if (thisText === "pants") {
-        $productImgList.append("<img class='showProductImg' src='" + pants +"'>");
-      } else if (thisText === "shoes") {
-        $productImgList.append("<img class='showProductImg' src='" + shoes +"'>");
-      } else if (thisText === "watches") {
-        $productImgList.append("<img class='showProductImg' src='" + watches +"'>");
-      } else if (thisText === "accessories") {
-        $productImgList.append("<img class='showProductImg' src='" + accessories +"'>");
-      }
-    })
+  $('.button-collapse').click(function() {
+    productMenu();
+  })
   
-  $productNavigation.on("mouseout", "a", function() {
-    if ( $(".img-list > img").hasClass("deafultProductImg") ) {
-      $(".deafultProductImg").show();
-      $(".showProductImg").remove();
-  } 
-  });
+  function productMenu() {
+    $productSidebar.slideUp(800)
+    $('#overlay').delay(1000).slideUp(1100);
+  }
 }) // End jQuery
   
   

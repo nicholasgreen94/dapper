@@ -1,14 +1,46 @@
 
 .menu {
-  li
-  > a {
+  background: transparent;
+  li { 
+   a {
     color: $black;
-    font-family: $primary-font;
-    font-size: $primary-font-size;
+    font-size: 18px;
+    font-weight: 100;
     @include padding(5, 10, 5, 10);
-    @extend text-lowercase;
-    &:hover {
-      text-decoration: underline;
+    text-transform: lowercase;
+    position: relative;
+    &:before {
+      content: '';
+      background: $black;
+      height: 1px;
+      @include transition( .28s ease-out );
+      width: 0;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+    }
+    &:after {
+      content: '';
+      background: $black;
+      height: 1px;
+      @include transition( .28s ease-out );
+      width: 0;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+    }
+      &:hover {
+        &:before,
+        &:after {
+          width: 45%;
+        }
+        &:before {
+          left: 8%;
+        }
+        &:after {
+          left: 48%;
+        }
+      }
     }
   }
 }
@@ -18,10 +50,27 @@
     color: $black;
     font-size: $fourth-header;
     font-weight: 700;
-    &:hover {
-      font-weight: 400;
-    }
+    @include transition( .28s ease-out );
+    position: relative;
   }
+  [href="#top"] {
+    &:before {
+      content: url('../img/arrow.png');
+      background-repeat: no-repeat;
+      opacity: 0;
+      @include transition( .28s ease-out );
+      @include transform( translateX(-50%) );
+      position: absolute;
+      top: 0;
+      left: 50%;
+    }
+    &:hover {
+      &:before {
+        opacity: 1;
+        top: -30px;
+      }
+    }
+  }  
 }
 
 .established {

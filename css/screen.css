@@ -73,48 +73,35 @@ text-white {
 }
 
 /* line 6, ../sass/_extends.scss */
-text-lowercase, button.small, .menu li
-> a, h1, h2, h3 {
+text-lowercase, .products button.small, h1, h2, h3 {
   text-transform: lowercase;
 }
 
 /* line 3, ../sass/_buttons.scss */
-button.small {
+.products button.small {
   background: transparent;
   border: 1px solid #fff;
+  font-size: 16px;
   font-weight: 700;
   margin-top: 32px;
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
 }
-@media only screen and (min-width: 40em) {
-  /* line 3, ../sass/_buttons.scss */
-  button.small {
-    margin-top: 52px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-  }
-}
-/* line 12, ../sass/_buttons.scss */
-button.small:hover {
+/* line 10, ../sass/_buttons.scss */
+.products button.small:hover {
   background: #fff;
   color: #4d4d4d;
 }
 
-/* line 18, ../sass/_buttons.scss */
+/* line 17, ../sass/_buttons.scss */
 .button-collapse {
+  cursor: pointer;
   font-size: 1.953em;
   font-weight: 300;
-  margin-top: -12px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 12px;
-}
-/* line 22, ../sass/_buttons.scss */
-.button-collapse:hover {
-  cursor: pointer;
+  position: relative;
+  top: -10px;
+  left: 12px;
 }
 
 /* line 2, ../sass/_logos.scss */
@@ -127,6 +114,7 @@ button.small:hover {
 
 /* line 8, ../sass/_logos.scss */
 .mobile-nav .dapper_logo {
+  margin-bottom: 32px;
   width: 150px;
   margin-top: 0px;
   margin-right: 0px;
@@ -134,12 +122,12 @@ button.small:hover {
   margin-left: 0px;
 }
 
-/* line 14, ../sass/_logos.scss */
+/* line 15, ../sass/_logos.scss */
 .dapper_logo {
   width: 100px;
 }
 
-/* line 18, ../sass/_logos.scss */
+/* line 19, ../sass/_logos.scss */
 .jackets_logo,
 .shirts_logo,
 .pants_logo,
@@ -149,7 +137,7 @@ button.small:hover {
   width: 125px;
 }
 @media only screen and (min-width: 40em) {
-  /* line 18, ../sass/_logos.scss */
+  /* line 19, ../sass/_logos.scss */
   .jackets_logo,
   .shirts_logo,
   .pants_logo,
@@ -160,40 +148,103 @@ button.small:hover {
   }
 }
 
-/* line 30, ../sass/_logos.scss */
+/* line 31, ../sass/_logos.scss */
 .products_logo {
-  width: 200px;
+  width: 150px;
 }
 
-/* line 3, ../sass/_typography.scss */
-.menu li
-> a {
+/* line 2, ../sass/_typography.scss */
+.menu {
+  background: transparent;
+}
+/* line 5, ../sass/_typography.scss */
+.menu li a {
   color: #000;
-  font-family: "Josefin Sans", helvetica, verdana, arial, sans-serif;
-  font-size: 1em;
+  font-size: 18px;
+  font-weight: 100;
   padding-top: 5px;
   padding-right: 10px;
   padding-bottom: 5px;
   padding-left: 10px;
+  text-transform: lowercase;
+  position: relative;
 }
-/* line 10, ../sass/_typography.scss */
-.menu li
-> a:hover {
-  text-decoration: underline;
+/* line 12, ../sass/_typography.scss */
+.menu li a:before {
+  content: '';
+  background: #000;
+  height: 1px;
+  -moz-transition: ease-out 0.28s;
+  -o-transition: ease-out 0.28s;
+  -webkit-transition: ease-out 0.28s;
+  transition: ease-out 0.28s;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+/* line 22, ../sass/_typography.scss */
+.menu li a:after {
+  content: '';
+  background: #000;
+  height: 1px;
+  -moz-transition: ease-out 0.28s;
+  -o-transition: ease-out 0.28s;
+  -webkit-transition: ease-out 0.28s;
+  transition: ease-out 0.28s;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+/* line 33, ../sass/_typography.scss */
+.menu li a:hover:before, .menu li a:hover:after {
+  width: 45%;
+}
+/* line 37, ../sass/_typography.scss */
+.menu li a:hover:before {
+  left: 8%;
+}
+/* line 40, ../sass/_typography.scss */
+.menu li a:hover:after {
+  left: 48%;
 }
 
-/* line 17, ../sass/_typography.scss */
+/* line 49, ../sass/_typography.scss */
 .main-footer a {
   color: #000;
   font-size: 1.25em;
   font-weight: 700;
+  -moz-transition: ease-out 0.28s;
+  -o-transition: ease-out 0.28s;
+  -webkit-transition: ease-out 0.28s;
+  transition: ease-out 0.28s;
+  position: relative;
 }
-/* line 21, ../sass/_typography.scss */
-.main-footer a:hover {
-  font-weight: 400;
+/* line 57, ../sass/_typography.scss */
+.main-footer [href="#top"]:before {
+  content: url("../img/arrow.png");
+  background-repeat: no-repeat;
+  opacity: 0;
+  -moz-transition: ease-out 0.28s;
+  -o-transition: ease-out 0.28s;
+  -webkit-transition: ease-out 0.28s;
+  transition: ease-out 0.28s;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+/* line 68, ../sass/_typography.scss */
+.main-footer [href="#top"]:hover:before {
+  opacity: 1;
+  top: -30px;
 }
 
-/* line 27, ../sass/_typography.scss */
+/* line 76, ../sass/_typography.scss */
 .established {
   padding-top: 84px;
   padding-right: 0px;
@@ -201,7 +252,7 @@ button.small:hover {
   padding-left: 0px;
 }
 
-/* line 30, ../sass/_typography.scss */
+/* line 79, ../sass/_typography.scss */
 .location-heading {
   padding-top: 64px;
   padding-right: 0px;
@@ -209,7 +260,7 @@ button.small:hover {
   padding-left: 0px;
 }
 @media only screen and (min-width: 64em) {
-  /* line 30, ../sass/_typography.scss */
+  /* line 79, ../sass/_typography.scss */
   .location-heading {
     padding-top: 144px;
     padding-right: 0px;
@@ -218,13 +269,13 @@ button.small:hover {
   }
 }
 
-/* line 38, ../sass/_typography.scss */
+/* line 87, ../sass/_typography.scss */
 h2 span,
 h2 address {
   font-size: 0.8em;
   font-weight: 200;
 }
-/* line 43, ../sass/_typography.scss */
+/* line 92, ../sass/_typography.scss */
 h2 a {
   color: #000;
   -moz-transition: 0.84s;
@@ -232,13 +283,13 @@ h2 a {
   -webkit-transition: 0.84s;
   transition: 0.84s;
 }
-/* line 46, ../sass/_typography.scss */
+/* line 95, ../sass/_typography.scss */
 h2 a:hover {
   color: #000;
   font-size: 1.25em;
 }
 
-/* line 53, ../sass/_typography.scss */
+/* line 102, ../sass/_typography.scss */
 .phone,
 .email {
   padding-top: 64px;
@@ -247,7 +298,7 @@ h2 a:hover {
   padding-left: 0px;
 }
 @media only screen and (min-width: 40em) {
-  /* line 53, ../sass/_typography.scss */
+  /* line 102, ../sass/_typography.scss */
   .phone,
   .email {
     padding-top: 0px;
@@ -260,53 +311,68 @@ h2 a:hover {
 /* line 2, ../sass/_sidebars.scss */
 .product-sidebar {
   background: #fff;
-  padding-bottom: 32px;
+  box-sizing: border-box;
+  border: 10px double #000;
+  display: none;
   overflow-y: scroll;
-  overflow-x: hidden;
-  position: fixed;
-  left: 12.5%;
+  padding-bottom: 32px;
   width: 285px;
   z-index: 999;
+  overflow: hidden;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
 }
-@media only screen and (min-width: 40em) {
-  /* line 2, ../sass/_sidebars.scss */
-  .product-sidebar {
-    overflow: hidden;
-    left: 36%;
-  }
+/* line 16, ../sass/_sidebars.scss */
+.product-sidebar #product-navigation {
+  width: 100%;
 }
-@media only screen and (min-width: 64em) {
-  /* line 2, ../sass/_sidebars.scss */
-  .product-sidebar {
-    left: 18%;
-    width: 800px;
-  }
+/* line 19, ../sass/_sidebars.scss */
+.product-sidebar li {
+  box-sizing: border-box;
+  display: block;
 }
-/* line 20, ../sass/_sidebars.scss */
-.product-sidebar li:hover {
-  background: #000;
-}
-/* line 23, ../sass/_sidebars.scss */
+/* line 22, ../sass/_sidebars.scss */
 .product-sidebar li a {
   color: #000;
   display: block;
   font-size: 1.25em;
   font-weight: 700;
+  text-align: center;
   text-transform: lowercase;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 72px;
   padding-top: 5px;
   padding-right: 0px;
   padding-bottom: 5px;
   padding-left: 0px;
+  -moz-transition: ease-out 0.28s;
+  -o-transition: ease-out 0.28s;
+  -webkit-transition: ease-out 0.28s;
+  transition: ease-out 0.28s;
+  position: relative;
 }
-/* line 31, ../sass/_sidebars.scss */
-.product-sidebar li a:hover {
-  color: #fff;
+/* line 32, ../sass/_sidebars.scss */
+.product-sidebar li a:before {
+  content: '';
+  background: #000;
+  height: 2px;
+  -moz-transition: ease-out 0.28s;
+  -o-transition: ease-out 0.28s;
+  -webkit-transition: ease-out 0.28s;
+  transition: ease-out 0.28s;
+  width: 0;
+  position: absolute;
+  bottom: 2px;
+  left: 25%;
 }
-/* line 34, ../sass/_sidebars.scss */
+/* line 43, ../sass/_sidebars.scss */
+.product-sidebar li a:hover:before {
+  width: 50%;
+}
+/* line 47, ../sass/_sidebars.scss */
 .product-sidebar li a img {
   margin-top: 0px;
   margin-right: 0px;
@@ -315,7 +381,7 @@ h2 a:hover {
   width: 18px;
 }
 
-/* line 42, ../sass/_sidebars.scss */
+/* line 55, ../sass/_sidebars.scss */
 #product-navigation {
   width: 285px;
   padding-top: 24px;
@@ -324,7 +390,7 @@ h2 a:hover {
   padding-left: 0px;
 }
 @media only screen and (min-width: 40em) {
-  /* line 42, ../sass/_sidebars.scss */
+  /* line 55, ../sass/_sidebars.scss */
   #product-navigation {
     padding-top: 24px;
     padding-right: 0px;
@@ -333,27 +399,10 @@ h2 a:hover {
   }
 }
 
-/* line 50, ../sass/_sidebars.scss */
-.img-list {
-  width: 500px;
-  display: none;
-}
-@media only screen and (min-width: 64em) {
-  /* line 50, ../sass/_sidebars.scss */
-  .img-list {
-    display: inline-block;
-  }
-}
-/* line 56, ../sass/_sidebars.scss */
-.img-list img {
-  position: relative;
-  top: -311.5px;
-}
-
-/* line 62, ../sass/_sidebars.scss */
-.overlay {
-  width: 100%;
+/* line 63, ../sass/_sidebars.scss */
+#overlay {
   height: 100%;
+  width: 100%;
   background: rgba(0, 0, 0, 0.75);
   position: fixed;
   top: 0;
@@ -527,86 +576,68 @@ hr {
   }
 }
 
-/* line 3, ../sass/_layout.scss */
-.main-header {
-  background: url("../img/main-photo.jpg");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 96% 100%;
-  height: 434px;
-}
-@media only screen and (min-width: 40em) {
-  /* line 3, ../sass/_layout.scss */
-  .main-header {
-    background-position: 100% 50%;
-  }
-}
-@media only screen and (min-width: 64em) {
-  /* line 3, ../sass/_layout.scss */
-  .main-header {
-    height: 502px;
-  }
+/* line 2, ../sass/_layout.scss */
+img {
+  width: 100%;
 }
 
-/* line 17, ../sass/_layout.scss */
-.mobile-nav {
-  height: 60px;
-  margin-top: 32px;
-  margin-right: 0px;
-  margin-bottom: 64px;
-  margin-left: 0px;
-}
-@media only screen and (min-width: 40em) {
-  /* line 17, ../sass/_layout.scss */
-  .mobile-nav {
-    display: none;
-  }
-}
-/* line 23, ../sass/_layout.scss */
-.mobile-nav .top-bar {
-  margin-top: 13px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-}
-/* line 26, ../sass/_layout.scss */
-.mobile-nav .title-bar,
-.mobile-nav .top-bar,
-.mobile-nav .menu {
-  background: #fff;
-}
-
-/* line 34, ../sass/_layout.scss */
+/* line 7, ../sass/_layout.scss */
 .main-nav {
-  display: none;
   height: 60px;
 }
 @media only screen and (min-width: 40em) {
-  /* line 34, ../sass/_layout.scss */
+  /* line 7, ../sass/_layout.scss */
   .main-nav {
     display: block;
-    margin-top: 64px;
-    margin-right: 0px;
-    margin-bottom: 12px;
-    margin-left: 0px;
+    position: relative;
+    top: 24px;
   }
 }
-/* line 41, ../sass/_layout.scss */
+/* line 14, ../sass/_layout.scss */
 .main-nav .top-bar {
   margin-top: 13px;
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
 }
-/* line 44, ../sass/_layout.scss */
+/* line 17, ../sass/_layout.scss */
 .main-nav .title-bar,
 .main-nav .top-bar,
 .main-nav .menu {
-  background: #fff;
+  background: transparent;
 }
 
-/* line 51, ../sass/_layout.scss */
+/* line 24, ../sass/_layout.scss */
+#main_header {
+  background: url("../img/main-photo.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 96% 100%;
+  height: 346px;
+}
+@media only screen and (min-width: 40em) {
+  /* line 24, ../sass/_layout.scss */
+  #main_header {
+    background-position: 100% 50%;
+    height: 434px;
+  }
+}
+@media only screen and (min-width: 64em) {
+  /* line 24, ../sass/_layout.scss */
+  #main_header {
+    height: 502px;
+  }
+}
+
+/* line 38, ../sass/_layout.scss */
+.header {
+  margin-bottom: 84px;
+  position: relative;
+  top: 76px;
+}
+
+/* line 44, ../sass/_layout.scss */
 .deafultProductImg {
   height: 330px;
   background-position: 50% 50%;
@@ -615,13 +646,13 @@ hr {
   background-position: 0% 0%;
 }
 @media only screen and (min-width: 64em) {
-  /* line 51, ../sass/_layout.scss */
+  /* line 44, ../sass/_layout.scss */
   .deafultProductImg {
     width: 500px;
   }
 }
 
-/* line 60, ../sass/_layout.scss */
+/* line 53, ../sass/_layout.scss */
 .products {
   margin-top: 24px;
   margin-right: 0px;
@@ -629,7 +660,7 @@ hr {
   margin-left: 0px;
 }
 @media only screen and (min-width: 40em) {
-  /* line 60, ../sass/_layout.scss */
+  /* line 53, ../sass/_layout.scss */
   .products {
     margin-top: 0px;
     margin-right: 0px;
@@ -638,7 +669,7 @@ hr {
   }
 }
 
-/* line 68, ../sass/_layout.scss */
+/* line 61, ../sass/_layout.scss */
 .jackets, .shirts, .pants, .shoes, .watches, .accessories {
   margin-top: 32px;
   margin-right: 0px;
@@ -646,7 +677,7 @@ hr {
   margin-left: 0px;
 }
 @media only screen and (min-width: 40em) {
-  /* line 68, ../sass/_layout.scss */
+  /* line 61, ../sass/_layout.scss */
   .jackets, .shirts, .pants, .shoes, .watches, .accessories {
     margin-top: 64px;
     margin-right: 0px;
@@ -654,7 +685,7 @@ hr {
     margin-left: 0px;
   }
 }
-/* line 73, ../sass/_layout.scss */
+/* line 66, ../sass/_layout.scss */
 .jackets .jacket-info, .shirts .jacket-info, .pants .jacket-info, .shoes .jacket-info, .watches .jacket-info, .accessories .jacket-info, .shirts .shirt-info, .pants .pant-info, .shoes .shoes-info, .watches .watch-info, .accessories .accessories-info {
   background: url("../img/jacket-photo.jpg");
   height: 384px;
@@ -664,13 +695,13 @@ hr {
   background-position: 22.5% 100%;
 }
 @media only screen and (min-width: 64em) {
-  /* line 73, ../sass/_layout.scss */
+  /* line 66, ../sass/_layout.scss */
   .jackets .jacket-info, .shirts .jacket-info, .pants .jacket-info, .shoes .jacket-info, .watches .jacket-info, .accessories .jacket-info, .shirts .shirt-info, .pants .pant-info, .shoes .shoes-info, .watches .watch-info, .accessories .accessories-info {
     height: 486px;
   }
 }
 
-/* line 86, ../sass/_layout.scss */
+/* line 79, ../sass/_layout.scss */
 .shirts .shirt-info {
   background: url("../img/white-shirt.jpg");
   background-position: 50% 50%;
@@ -678,13 +709,13 @@ hr {
   background-size: cover;
 }
 @media only screen and (min-width: 40em) {
-  /* line 86, ../sass/_layout.scss */
+  /* line 79, ../sass/_layout.scss */
   .shirts .shirt-info {
     background-position: 0% 0%;
   }
 }
 
-/* line 98, ../sass/_layout.scss */
+/* line 91, ../sass/_layout.scss */
 .pants .pant-info {
   background: url("../img/chino-pant.jpg");
   background-position: 50% 50%;
@@ -692,13 +723,13 @@ hr {
   background-size: cover;
 }
 @media only screen and (min-width: 40em) {
-  /* line 98, ../sass/_layout.scss */
+  /* line 91, ../sass/_layout.scss */
   .pants .pant-info {
     background-position: 0% 80%;
   }
 }
 
-/* line 110, ../sass/_layout.scss */
+/* line 103, ../sass/_layout.scss */
 .shoes .shoes-info {
   background: url("../img/shoes.jpg");
   background-position: 50% 50%;
@@ -706,13 +737,13 @@ hr {
   background-size: cover;
 }
 @media only screen and (min-width: 40em) {
-  /* line 110, ../sass/_layout.scss */
+  /* line 103, ../sass/_layout.scss */
   .shoes .shoes-info {
     background-position: 0% 100%;
   }
 }
 
-/* line 122, ../sass/_layout.scss */
+/* line 115, ../sass/_layout.scss */
 .watches .watch-info {
   background: url("../img/watch.jpg");
   background-position: 50% 50%;
@@ -720,13 +751,13 @@ hr {
   background-size: cover;
 }
 @media only screen and (min-width: 40em) {
-  /* line 122, ../sass/_layout.scss */
+  /* line 115, ../sass/_layout.scss */
   .watches .watch-info {
     background-position: 100% 100%;
   }
 }
 
-/* line 134, ../sass/_layout.scss */
+/* line 127, ../sass/_layout.scss */
 .accessories .accessories-info {
   background: url("../img/socks.jpg");
   background-position: 50% 50%;
@@ -734,13 +765,13 @@ hr {
   background-size: cover;
 }
 @media only screen and (min-width: 40em) {
-  /* line 134, ../sass/_layout.scss */
+  /* line 127, ../sass/_layout.scss */
   .accessories .accessories-info {
     background-position: 0% 50%;
   }
 }
 
-/* line 144, ../sass/_layout.scss */
+/* line 137, ../sass/_layout.scss */
 .main-footer {
   height: 60px;
   margin-top: 64px;
@@ -748,7 +779,7 @@ hr {
   margin-bottom: 64px;
   margin-left: 0px;
 }
-/* line 147, ../sass/_layout.scss */
+/* line 140, ../sass/_layout.scss */
 .main-footer .social-media {
   list-style-type: none;
 }
@@ -758,21 +789,21 @@ hr {
   padding: 0;
   display: inline;
 }
-/* line 149, ../sass/_layout.scss */
+/* line 142, ../sass/_layout.scss */
 .main-footer .social-media ul {
   margin-top: 10px;
   margin-right: 0px;
   margin-bottom: 50px;
   margin-left: 0px;
 }
-/* line 151, ../sass/_layout.scss */
+/* line 144, ../sass/_layout.scss */
 .main-footer .social-media ul li {
   margin-top: 0px;
   margin-right: 10px;
   margin-bottom: 0px;
   margin-left: 10px;
 }
-/* line 153, ../sass/_layout.scss */
+/* line 146, ../sass/_layout.scss */
 .main-footer .social-media ul li a {
   color: #000;
   font-size: 1.25em;
@@ -782,19 +813,19 @@ hr {
   transition: 0.54s;
 }
 @media only screen and (min-width: 40em) {
-  /* line 153, ../sass/_layout.scss */
+  /* line 146, ../sass/_layout.scss */
   .main-footer .social-media ul li a {
     font-size: 1.563em;
   }
 }
-/* line 160, ../sass/_layout.scss */
+/* line 153, ../sass/_layout.scss */
 .main-footer .social-media ul li a i {
   -moz-transition: 0.46s;
   -o-transition: 0.46s;
   -webkit-transition: 0.46s;
   transition: 0.46s;
 }
-/* line 162, ../sass/_layout.scss */
+/* line 155, ../sass/_layout.scss */
 .main-footer .social-media ul li a i:hover {
   -moz-transform: scale(1.25, 1.25);
   -ms-transform: scale(1.25, 1.25);
@@ -802,7 +833,7 @@ hr {
   transform: scale(1.25, 1.25);
 }
 
-/* line 173, ../sass/_layout.scss */
+/* line 166, ../sass/_layout.scss */
 .about-header {
   background: url("../img/about.jpg");
   background-position: 50% 50%;
@@ -812,7 +843,7 @@ hr {
 }
 
 @media only screen and (min-width: 64em) {
-  /* line 179, ../sass/_layout.scss */
+  /* line 172, ../sass/_layout.scss */
   .about-content,
   .contact-info {
     padding-top: 124px;
@@ -823,7 +854,7 @@ hr {
 }
 
 @media only screen and (min-width: 64em) {
-  /* line 186, ../sass/_layout.scss */
+  /* line 179, ../sass/_layout.scss */
   .location {
     padding-top: 24px;
     padding-right: 0px;
@@ -832,7 +863,7 @@ hr {
   }
 }
 
-/* line 192, ../sass/_layout.scss */
+/* line 185, ../sass/_layout.scss */
 #map {
   height: 300px;
   margin-top: 12px;
@@ -841,7 +872,7 @@ hr {
   margin-left: autopx;
 }
 @media only screen and (min-width: 64em) {
-  /* line 192, ../sass/_layout.scss */
+  /* line 185, ../sass/_layout.scss */
   #map {
     margin-top: 84px;
     margin-right: autopx;
@@ -850,7 +881,7 @@ hr {
   }
 }
 
-/* line 201, ../sass/_layout.scss */
+/* line 194, ../sass/_layout.scss */
 .contact-header {
   background: url("../img/contact.jpg");
   background-position: 50% 50%;
@@ -859,7 +890,7 @@ hr {
   background-position: 0% 50%;
 }
 
-/* line 207, ../sass/_layout.scss */
+/* line 200, ../sass/_layout.scss */
 .return-policy {
   margin-top: 48px;
   margin-right: 0px;

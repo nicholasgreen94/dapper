@@ -1,9 +1,30 @@
 /*
-Errno::ENOENT: No such file or directory @ rb_sysopen - styles.scss
+Error: Invalid property: "Backtrace:" (no value).
+        on line 4 of styles.css
+
+1: /*
+2: Errno::ENOENT: No such file or directory @ rb_sysopen - styles.scss
+3: 
+4: Backtrace:
+5: /Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:482:in `read'
+6: /Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:482:in `update_stylesheet'
+7: /Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+8: /Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `each'
+9: /Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
 
 Backtrace:
-/Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:482:in `read'
-/Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:482:in `update_stylesheet'
+styles.css:4
+/Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:729:in `parse_property'
+/Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:691:in `parse_property_or_rule'
+/Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:657:in `parse_line'
+/Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:535:in `build_tree'
+/Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:554:in `block in append_children'
+/Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:553:in `each'
+/Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:553:in `append_children'
+/Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:406:in `_to_tree'
+/Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
 /Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
 /Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `each'
 /Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
@@ -22,4 +43,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - styles.scss"; }
+  content: "Error: Invalid property: \"Backtrace:\" (no value).\A         on line 4 of styles.css\A \A 1: /*\A 2: Errno::ENOENT: No such file or directory @ rb_sysopen - styles.scss\A 3: \A 4: Backtrace:\A 5: /Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:482:in `read'\A 6: /Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:482:in `update_stylesheet'\A 7: /Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'\A 8: /Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `each'\A 9: /Users/Nicholas/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'"; }

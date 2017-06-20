@@ -1,51 +1,44 @@
 
-// .main-header 
-.main-header {
+img {
+  width: 100%;
+}
+
+// .main-nav
+.main-nav {
+  height: 60px;
+  @media only screen and (min-width: 40em) {
+    display: block;
+    position: relative;
+    top: 24px;
+  }
+  .top-bar {
+    @include margin(13, 0, 0, 0);
+  }
+  .title-bar,
+  .top-bar,
+  .menu {
+    background: transparent;
+  }
+}
+
+#main_header {
   background: url("../img/main-photo.jpg");
   @include background-default;
   background-position: 96% 100%;
-  height: 434px;
+  height: 346px;
   @media only screen and (min-width: 40em) {
     background-position: 100% 50%;
+    height: 434px;
   }
   @media only screen and (min-width: 64em) {
     height: 502px;
   }
 }
 
-// .mobile-nav 
-.mobile-nav {
-  height: 60px;
-  @include margin(32, 0, 64, 0);
-  @media only screen and (min-width: 40em) {
-    display: none;
-  }
-  .top-bar {
-    @include margin(13, 0, 0, 0);
-  }
-  .title-bar,
-  .top-bar,
-  .menu {
-    background: $white;
-  }
-}
-
-// .main-nav
-.main-nav {
-  display: none;
-  height: 60px;
-  @media only screen and (min-width: 40em) {
-    display: block;
-    @include margin(64, 0, 12, 0);
-  }
-  .top-bar {
-    @include margin(13, 0, 0, 0);
-  }
-  .title-bar,
-  .top-bar,
-  .menu {
-    background: $white;
-  }
+.header {
+  margin-bottom: 84px;
+  position: relative;
+  top: 76px;
 }
 
 .deafultProductImg {

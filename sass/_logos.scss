@@ -6,6 +6,7 @@
 
 .mobile-nav {
   .dapper_logo {
+    margin-bottom: 32px;
     width: 150px;
     @include margin(0, 0, 6, 0); 
   }
@@ -28,5 +29,5 @@
 }
 
 .products_logo {
-  width: 200px;
+  width: 150px;
 }

@@ -1,35 +1,48 @@
 
 .product-sidebar {
   background: $white;
-  padding-bottom: 32px;
+  box-sizing: border-box;
+  border: 10px double $black;
+  display: none;
   overflow-y: scroll;
-  overflow-x: hidden;
-  position: fixed;
-  left: 12.5%;
+  padding-bottom: 32px;
   width: 285px;
   z-index: 999;
-  @media only screen and (min-width: 40em) {
-    overflow: hidden;
-    left: 36%;
-  }
-  @media only screen and (min-width: 64em) {
-    left: 18%;
-    width: 800px;
+  overflow: hidden;
+  @include translate( -50%, -50% );
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  #product-navigation {
+    width: 100%;
   }
   li {
-    &:hover {
-      background: $black;
-    }
+    box-sizing: border-box;
+    display: block;
   a {
     color: $black;
     display: block;
     font-size: $fourth-header;
     font-weight: 700;
+    text-align: center;
     text-transform: lowercase;
-    @include margin(0, 0, 0, 72);
     @include padding(5, 0, 5, 0);
+    @include transition(.28s ease-out);
+    position: relative;
+    &:before {
+      content: '';
+      background: $black;
+      height: 2px;
+      @include transition(.28s ease-out);
+      width: 0;
+      position: absolute;
+      bottom: 2px;
+      left: 25%;
+    }
     &:hover {
-      color: $white;
+      &:before {
+        width: 50%;
+      }
     }
     img {
       @include margin(0, 0, 0, 12);
@@ -47,21 +60,9 @@
   }
 }
 
-.img-list {
-  width: 500px;
-  display: none;
-  @media only screen and (min-width: 64em) {
-    display: inline-block;
-  }
-  img {
-    position: relative;
-    top: -311.5px;
-  }
-}
-
-.overlay {
-  width: 100%;
+#overlay {
   height: 100%;
+  width: 100%;
   background: rgba(0, 0, 0, 0.75);
   position: fixed;
   top: 0;
